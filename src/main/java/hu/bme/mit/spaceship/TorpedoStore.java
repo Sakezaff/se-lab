@@ -39,7 +39,7 @@ private Random random = new Random();
     // simulate random overheating of the launcher bay which prevents firing
     Random generator = random;
     double r = generator.nextDouble();
-
+//halaszarpi
     if (r >= FAILURE_RATE) {
       // successful firing
       this.torpedoCount -= numberOfTorpedos;
